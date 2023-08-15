@@ -1,0 +1,147 @@
+.queries_ask {
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	margin: 20px 0;
+}
+.queries_ask button {
+	width: 200px;
+	border-bottom-left-radius: 0;
+}
+.queries_ask_input {
+	height: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #bf0000;
+	padding: 10px;
+	width: 100%;
+	color: white;
+	outline: none;
+}
+.queries_main {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+.queries_box {
+	width: 95%;
+	max-width: 1300px;
+}
+.query_main {
+	width: 100%;
+	display: flex;
+	padding: 20px;
+	background: white;
+	transition: 0.2s ease;
+	margin: 10px 0;
+	border: 10px solid rgba(255, 255, 255, 0);
+	border-top: none;
+	border-bottom: none;
+}
+.query_main button {
+	background-color: #bf0000;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+	height: fit-content;
+}
+.query_main:hover {
+	background-color: #c4c4c4;
+}
+.query_mess {
+	margin-bottom: 5px;
+}
+.query_details {
+	display: flex;
+	justify-content: space-between;
+	font-size: 10px;
+}
+.query_info {
+	width: 100%;
+}
+.queries_admin {
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	margin: 20px 0;
+}
+.queries_getslot {
+	margin-left: 10px !important;
+}
+.queries_admin button {
+	width: 200px;
+	border-bottom-left-radius: 0;
+}
+.query_resolve {
+	width: 100%;
+	position: relative;
+	margin-top: 20px;
+	display: none;
+	transition: 0.3s;
+}
+.query_resolve_vis {
+	display: block !important;
+}
+.query_resolve input {
+	width: 100%;
+	padding: 0 8px 0 16px;
+	border: 1px solid rgb(2, 204, 2);
+	border-radius: 500px;
+	outline: none;
+	height: 40px;
+}
+.query_resolve button {
+	position: absolute;
+	right: -10px;
+	border-radius: 50px;
+
+	border: 1px;
+	background-color: rgb(2, 204, 2);
+	height: 40px;
+	font-size: 15px;
+}
+.query_resolve button svg {
+	font-size: 20px;
+}
+.resolved_solution {
+}
+.query_main_resolved {
+	border: 5px solid rgb(0, 217, 0);
+	border-top: none;
+	border-bottom: none;
+}
+.queries_all {
+	height: 80vh;
+	overflow: scroll;
+
+	scrollbar-width: 5px;
+}
+.queries_resolve_section{
+    height: 90vh;
+}
+@media only screen and (max-width: 600px) {
+	.queries_getslot {
+		margin-left: 0px !important;
+	}
+
+	.queries_admin {
+		flex-direction: column;
+	}
+	.queries_admin button {
+		width: 100%;
+		border-bottom-left-radius: 0;
+		margin: 10px 0 0 0;
+	}
+	.query_main {
+		padding: 5px 5px 5px 0;
+		flex-direction: column;
+	}
+
+	.query_main button {
+		margin-right: 0px;
+        margin-bottom: 5px;
+	}
+}
