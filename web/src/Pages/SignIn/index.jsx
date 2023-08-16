@@ -60,11 +60,11 @@ const SignIn = () => {
 				<div className="auth_left">
 					<div className="auth_featureText">
 						<h1 className="auth_title">
-							<span>Welcome</span> Back
+							<span>Welcome</span> Again
 						</h1>
 						<p className="auth_subtitle">
-							To keep connected with us please login with your personal
-							information by email address and password
+							Please login using your registered 
+							email address and password
 						</p>
 					</div>
 					<div className="auth_buttons">

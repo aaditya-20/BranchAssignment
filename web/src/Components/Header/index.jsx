@@ -18,7 +18,7 @@ const Header = (props) => {
 		<>
 			<nav className={`${openMobileNavigation ? "nav_open_mobile" : ""}`}>
 				<div className="logo">
-					Branch <span>International</span>
+					Branch <span>Support</span>
 				</div>
 				<label
 					onClick={() => setOpenMobileNavigation(!openMobileNavigation)}

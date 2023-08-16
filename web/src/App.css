@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background: rgb(0, 0, 0);
+  background: rgb(65, 221, 78);
   overflow: hidden;
 }
 
@@ -14,13 +14,13 @@ body {
   height: 0em
 }
 ::-webkit-scrollbar-button {
-  background: rgb(0, 0, 0)
+  background: rgb(65, 221, 78);
 }
 ::-webkit-scrollbar-track-piece {
-  background: rgb(0, 0, 0)
+  background: rgb(65, 221, 78);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgb(223, 0, 0);
+  background: rgb(65, 221, 78);
   border-radius: 50px;
 }
 .auth_input{
@@ -35,7 +35,7 @@ body {
   background-color: white;
 }
 .mui_btn{
-	background-color: #bf0000 !important;
+	background-color: #0a0202 !important;
 	padding: 10px 15px !important;
   display: flex !important;
   align-items: center !important;

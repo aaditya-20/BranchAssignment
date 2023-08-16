@@ -2,7 +2,7 @@ nav {
 	display: flex;
 	height: 80px;
 	width: 100%;
-	background: #1b1b1b;
+	background: #7a0808;
 	align-items: center;
 	justify-content: space-between;
 	padding: 0 50px 0 100px;
@@ -59,7 +59,7 @@ nav .menu_btn {
 		position: fixed;
 		top: 80px;
 		left: -100%;
-		background: #111;
+		background: #0ab853;
 		height: 100vh;
 		width: 100%;
 		text-align: center;
