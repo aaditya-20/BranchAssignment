@@ -1,8 +1,8 @@
 export const toastOption = {
 	position: "bottom-right",
-	autoClose: 8000,
+	autoClose: 3000,
 	pauseOnHover: true,
-	theme: "light",
+	theme: "dark",
 };
 export const promiseToaster = {
 	pending: {
